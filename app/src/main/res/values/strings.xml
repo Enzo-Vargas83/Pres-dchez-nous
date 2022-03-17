@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Près chez nous</string>
+    <string name="app_name">Près d\'chez nous</string>
+    <string name="bvn">Bienvenue sur l\'application près de chez toi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textBtn1">Liste activités</string>
 </resources>
