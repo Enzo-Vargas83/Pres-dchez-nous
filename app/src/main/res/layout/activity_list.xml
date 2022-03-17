@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".ListActivity">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/menu"
+        android:name="com.example.prscheznous.MainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBotton="true"
+        tools:layout="@layout/fragment_main_menu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints">
+
+    </androidx.fragment.app.FragmentContainerView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

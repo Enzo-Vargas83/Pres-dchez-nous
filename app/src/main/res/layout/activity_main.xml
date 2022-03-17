@@ -37,32 +37,17 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="280dp"></TextView>
 
-    <LinearLayout
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/menu"
+        android:name="com.example.prscheznous.MainMenu"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@color/teal_700"
-        android:padding="5dp"
-        tools:ignore="MissingConstraints"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBotton="true"
+        tools:layout="@layout/fragment_main_menu"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="631dp"
-        >
+        tools:layout_editor_absoluteY="663dp"
+        tools:ignore="MissingConstraints">
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/textBtn1"
-            android:textSize="20dp"
-            ></Button>
-
-        <Button
-            android:layout_margin="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"></Button>
-
-    </LinearLayout>
+    </androidx.fragment.app.FragmentContainerView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
